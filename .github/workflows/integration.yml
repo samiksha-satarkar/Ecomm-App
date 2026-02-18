@@ -21,7 +21,6 @@ jobs:
       run:
         # asking to check the code in the backend folder
         working-directory: ./backend
-
     steps:
       # get the code from the repo
       - name : Checkout Code
